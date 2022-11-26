@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomSplashScreenActivity"
+    android:background="@drawable/firstsplashlogo"
+    android:gravity="bottom|center">
+
+    <ProgressBar
+
+        android:id="@+id/progressbarId"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="251dp"
+        android:layout_height="37dp"
+        android:layout_margin="80dp"
+        android:progressBackgroundTint="#e2e5ec"
+        android:progressTint="#15d8ea" />
+
+</LinearLayout>
